@@ -1,0 +1,58 @@
+export default function HomePage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-purple-200 p-6 text-gray-800">
+      <header className="text-center py-10">
+        <h1 className="text-4xl font-bold">Amber Lynn Patten</h1>
+        <p className="text-xl mt-2">Entrepreneur | Influencer | Developer | Performer | Healer</p>
+      </header>
+
+      <section className="grid md:grid-cols-2 gap-8 py-10">
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">Who I Am</h2>
+          <p className="mb-4">
+            I’m a visionary entrepreneur based in Salt Lake City, Utah, blending marketing, tech, healing, and performance. As the founder of Awaken With Amber LLC and Amber’s Alchemy Apothecary, I empower people and build communities through holistic innovation.
+          </p>
+          <ul className="list-disc list-inside space-y-1">
+            <li>10+ years modeling & influencer marketing</li>
+            <li>Software developer & digital strategist</li>
+            <li>Herbalist & sustainability advocate</li>
+            <li>Disney-style performer for events</li>
+          </ul>
+        </div>
+        <div className="bg-white rounded-2xl shadow-lg p-6">
+          <h3 className="text-xl font-semibold mb-2">Contact & Booking</h3>
+          <p>Email: [awaken@consultant.com]</p>
+          <p>Phone: [(801)819-6795]</p>
+          <p className="mt-2">Socials:</p>
+          <ul className="list-inside list-disc">
+            <li><a href="https://www.facebook.com/share/1FmbbXGri4/" className="text-blue-600">Facebook Page 1</a></li>
+            <li><a href="https://www.facebook.com/share/19hawjiy5c/" className="text-blue-600">Facebook Page 2</a></li>
+            <li><a href="https://www.facebook.com/share/15yPgNVoP3/" className="text-blue-600">Facebook Page 3</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="py-10">
+        <h2 className="text-2xl font-semibold mb-6 text-center">Featured Services</h2>
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="bg-white p-4 rounded-xl shadow">
+            <h3 className="font-semibold text-lg mb-2">Influencer Marketing</h3>
+            <p>Create viral, data-driven campaigns that hit the front page.</p>
+          </div>
+          <div className="bg-white p-4 rounded-xl shadow">
+            <h3 className="font-semibold text-lg mb-2">Character Performance</h3>
+            <p>Disney princess, superhero, or custom characters for events.</p>
+          </div>
+          <div className="bg-white p-4 rounded-xl shadow">
+            <h3 className="font-semibold text-lg mb-2">Herbal Healing</h3>
+            <p>Custom tinctures, balms, and holistic tools through Amber’s Alchemy Apothecary.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer className="text-center py-6 text-sm text-gray-600">
+        &copy; {new Date().getFullYear()} Amber Lynn Patten. All rights reserved.
+      </footer>
+    </div>
+  );
+}
